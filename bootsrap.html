@@ -32,9 +32,17 @@
       }
 
       .navbar button {
-        background-color: #6D0262;
-        color: white;
+        background-color: white;
+        color: #6D0262;
         font-weight: bold;
+        border: 2px solid #6D0262;
+        transition-duration: 0.4s;
+      }
+
+      .navbar button:hover{
+      	background-color: #6D0262;
+      	color: white;
+      	font-weight: bold;
       }
 
       #why_bootsrap {
@@ -45,6 +53,8 @@
       	background-color: #FCECF8;
         color: purple;
       }
+
+      
     	
     </style>
   </head>
@@ -69,7 +79,7 @@
       <form class="form-inline pull-xs-right">
         <input class="form-control" type="email" placeholder="Email Address">
         <input class="form-control" type="password" placeholder="Password">
-        <button class="btn" type="submit">Search</button>
+        <button class="btn search_button" type="submit">Search</button>
       </form>
     </nav>
 
